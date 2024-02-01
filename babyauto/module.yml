@@ -1,0 +1,17 @@
+name: babyauto
+resources:
+- name: General Tips
+  type: markdown
+  content: |
+    This dojo requires you writes scripts that automatically trigger a crash to get the flag, as doing in manually is time-consuming and just crazy. So please look into tools which revolves arounds the concepts of :-
+      1) [Fuzzing](https://en.wikipedia.org/wiki/Fuzzing) :- [AFL++](https://github.com/AFLplusplus/AFLplusplus), etc
+      2) [Symbolic Execution](https://en.wikipedia.org/wiki/Symbolic_execution) :- [angr](https://github.com/angr/angr), etc<br>
+    , etc
+
+    Few levels requires a deeper understanding of YAN85, so incase you are not familiar with it, I highly suggest you to first complete the [Reverse Engineering](https://pwn.college/program-security/reverse-engineering) module before starting this.
+
+challenges:
+
+- id: test
+  name: Level1
+  description: check-compile-issue

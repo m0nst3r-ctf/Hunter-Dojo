@@ -1,0 +1,3 @@
+Embarking on a journey fueled by my personal curiosity, I have decided to host few of the old challenges that were previously part of the old pwn.college curriculum and maybe some of my own in the near future. These challenges serve as a nostalgic revisit for those familiar with the past content (Yan85) and provide an exciting opportunity for newcomers to delve into enduring concepts.
+
+This dojo is open source! Contribute [here](https://github.com/m0nst3r-ctf/Hunter-dojo.git). Questions? Comments? Open an issue on github or send an message in the respective community-dojos channel of [pwn.college discord](https://discord.com/invite/pwncollege).
