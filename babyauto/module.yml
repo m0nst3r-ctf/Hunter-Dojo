@@ -12,6 +12,6 @@ resources:
 
 challenges:
 
-- id: test
+- id: "1"
   name: Level1
   description: check-compile-issue
