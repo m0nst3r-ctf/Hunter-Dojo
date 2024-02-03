@@ -51,7 +51,7 @@ int main(int argc, const char **argv, const char **envp)
   srand(time(NULL));
   // Runs 50 binaries and expects them to crash (raise a signal).
   const unsigned int expected_crashes = 50;
-  const char *crash_program_suffix = "/opt/babyauto-crackmes/level1/crash1";
+  const char *crash_program_suffix = "/opt/babyauto-crackmes/level2/crash1";
 
   check_presence_of_crash_program(crash_program_suffix);
 
@@ -85,7 +85,7 @@ int main(int argc, const char **argv, const char **envp)
     {
       printf("- You must crash %d more programs to get the flag.\n", crashes_left);
       printf("Path to program: %s\n", path_to_crash_program);
-      printf("Please Provide Path to crashing input file: ");
+      printf("Please provide path to crashing input file: ");
       fgets(path_to_input_file, 20, stdin);
       path_to_input_file[strcspn(path_to_input_file, "\n")] = 0;
       if (strstr(path_to_input_file, "flag"))
