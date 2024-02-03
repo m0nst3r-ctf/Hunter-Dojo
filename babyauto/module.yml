@@ -13,7 +13,5 @@ resources:
 challenges:
 - id: "1"
   name: Level 1
-  description: old babyauto module level1. Eh, but it looks like the path to the crash programs never change?
 - id: "2"
   name: Level 2
-  description: I learnt from my previous mistakes. Now the paths will no longer be the same.
