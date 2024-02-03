@@ -11,7 +11,9 @@ resources:
     Few levels requires a deeper understanding of YAN85, so incase you are not familiar with it, I highly suggest you to first complete the [Reverse Engineering](https://pwn.college/program-security/reverse-engineering) module before starting this.
 
 challenges:
-
 - id: "1"
   name: Level1
-  description: check-compile-issue
+  description: Eh, looks like the path to the crash programs never change?
+- id: "2"
+  name: Level2
+  description: I learn from my previous mistake. Now the paths will no longer be the same.

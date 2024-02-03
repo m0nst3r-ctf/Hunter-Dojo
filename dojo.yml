@@ -1,5 +1,5 @@
 id: m0nst3r-dojo
 name: Hunter Dojo
-type: public
+type: private
 modules:
 - id: "babyauto"
