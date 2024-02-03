@@ -49,6 +49,7 @@ void check_presence_of_crash_program(const char *program_path)
 int main(int argc, const char **argv, const char **envp)
 {
   srand(time(NULL));
+
   // Runs 50 binaries and expects them to crash (raise a signal).
   const unsigned int expected_crashes = 50;
   const char *crash_program_suffix = "/opt/babyauto-crackmes/level2/crash1";
@@ -104,9 +105,11 @@ int main(int argc, const char **argv, const char **envp)
             setgid(0x539u);
             setresuid(0x539u, 0x539u, 0x539u);
             dup2(program_input_file_fd, 0);
+            close(program_input_file_fd);
             execve(path_to_crash_program, NULL, NULL);
           }
           waitpid(pid, &stat_loc, 0);
+          close(program_input_file_fd);
           if ((char)((stat_loc & 0x7F) + 1) >> 1 > 0)
           {
             printf("[*] PWNED! Program terminated with signal %d.\n", stat_loc & 0x7F);
