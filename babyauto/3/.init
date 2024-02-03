@@ -1,0 +1,26 @@
+#!/opt/pwn.college/python
+
+import os
+import zipfile
+
+directory_to_extract_to = '/opt/babyauto-crackmes/level3/'
+rel_path_to_crash_files = '3.zip'
+remove_list = ['README.md', 'DESCRIPTION.md']
+
+os.makedirs(directory_to_extract_to, exist_ok=True)
+
+file_dir_path = os.path.dirname(__file__)
+
+path_to_crash_zip_files = os.path.join(
+    file_dir_path, rel_path_to_crash_files)
+
+with zipfile.ZipFile(path_to_crash_zip_files, 'r') as zip_ref:
+    zip_ref.extractall(directory_to_extract_to)
+
+# Making crash binaries executable.
+os.system(f"chmod +x {directory_to_extract_to}/*")
+
+# not necessary for challenge
+os.unlink(path_to_crash_zip_files)
+for file_name in remove_list:
+    os.remove(os.path.join(file_dir_path, file_name))

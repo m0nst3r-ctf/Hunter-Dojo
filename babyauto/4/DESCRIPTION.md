@@ -1,0 +1,1 @@
+old babyauto module level8. Were you an true Yan-head? Do you think you can handle stripped binaries? then automating this will be too simple. An intentional bug is part of this challenge, think you can figure it out?
