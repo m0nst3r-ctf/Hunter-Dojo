@@ -3,7 +3,7 @@
 import os
 import zipfile
 
-directory_to_extract_to = '/opt/babyauto-crackmes/level8/'
+directory_to_extract_to = '/opt/babyauto-crackmes/level3/'
 rel_path_to_crash_files = '3.zip'
 remove_list = ['README.md', 'DESCRIPTION.md']
 
