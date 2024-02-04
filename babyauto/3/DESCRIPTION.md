@@ -1,1 +1,1 @@
-old babyauto module level8. Were you an true Yan-head? then automating this will be too simple.
+old babyauto module level8. Were you an true Yan-head? then automating this should be simple.
