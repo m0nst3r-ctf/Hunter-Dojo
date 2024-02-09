@@ -3,9 +3,9 @@
 import os
 import zipfile
 
-directory_to_extract_to = '/opt/babyauto-crackmes/level8/'
+directory_to_extract_to = '/opt/babyauto-crackmes/level4/'
 rel_path_to_crash_files = '4.zip'
-remove_list = ['README.md', 'DESCRIPTION.md']
+remove_list = ['README.md', 'DESCRIPTION.md', '4.c']
 
 os.makedirs(directory_to_extract_to, exist_ok=True)
 
