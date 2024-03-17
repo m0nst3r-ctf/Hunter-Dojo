@@ -1,5 +1,25 @@
 name: babyauto
 resources:
+- name: "Automatic Vulnerability Discovery - Introduction"
+  type: lecture
+  playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
+  video: Isl94nzOWeo
+- name: "Automatic Vulnerability Discovery - Static Analysis"
+  type: lecture
+  playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
+  video: BJIQ7dQcr4U
+- name: "Automatic Vulnerability Discovery - Fuzzing"
+  type: lecture
+  playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
+  video: K_2DAo5pPQQ
+- name: "Automatic Vulnerability Discovery - Dynamic Symbolic Execution"
+  type: lecture
+  playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
+  video: VJoNraxFliM
+- name: "Automatic Vulnerability Discovery - The Cyber Grand Challenge	"
+  type: lecture
+  playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
+  video: xiZLYoLGk1U
 - name: General Tips
   type: markdown
   content: |
