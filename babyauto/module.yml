@@ -4,22 +4,27 @@ resources:
   type: lecture
   playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
   video: Isl94nzOWeo
+  slides: 1IrUvzRc_VHeF7y035eQRJz2at1dsAKQLo7pOgRQHA60
 - name: "Automatic Vulnerability Discovery - Static Analysis"
   type: lecture
   playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
   video: BJIQ7dQcr4U
+  slides: 1Br5GFn5bsYSWZf2-mreqKpNv6sf7WmbH12aqF_ujpeo
 - name: "Automatic Vulnerability Discovery - Fuzzing"
   type: lecture
   playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
   video: K_2DAo5pPQQ
+  slides: 1Co6Dh9ezRg_vsHKPY3d9XTZ1EXSXY2rEbGXW7KJVpyM
 - name: "Automatic Vulnerability Discovery - Dynamic Symbolic Execution"
   type: lecture
   playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
   video: VJoNraxFliM
+  slides: 1_CZ0kI8g4Oj6YFJrMyhhnfxz4JCJX0Jl7nXqlydSpd8
 - name: "Automatic Vulnerability Discovery - The Cyber Grand Challenge"
   type: lecture
   playlist: PL-ymxv0nOtqoJHiuTof3tEh8MpTu8envI
   video: xiZLYoLGk1U
+  slides: 1c1BLQVd6lNp8dS4svJ9uHRRGRfhnyOdTY4ayiUD9smY
 - name: General Tips
   type: markdown
   content: |
